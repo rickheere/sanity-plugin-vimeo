@@ -1,0 +1,32 @@
+{
+  "paths": {
+    "compiled": "./dist",
+    "source": "./src"
+  },
+  "parts": [
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "./src/schemas/vimeo.picture.size.js"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "./src/schemas/vimeo.video.file.js"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "./src/schemas/vimeo.video.pictures.js"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "./src/schemas/vimeo.video.privacy.js"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "./src/schemas/vimeo.videoAsset.js"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "./src/schemas/vimeo.video.js"
+    }
+  ]
+}
